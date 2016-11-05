@@ -1,0 +1,422 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+*
+{
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+	color: #000000;
+	font-size: 16px;
+	border: 0;
+}
+
+h1
+{
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+body
+{
+	background-color: #1f2024;
+}
+
+#page
+{
+	background: #fafafa;
+}
+
+.container
+{
+	width: 92.5%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+.area
+{
+	padding: 20px 0;
+}
+
+.area-list
+{
+	background-color: #1889BA;
+	padding: 20px;
+}
+
+.area-list p, .area-list h2
+{
+	color: #ffffff;
+}
+
+.altern
+{
+	background-color: #E4E4E4;
+}
+
+.altern p, .altern h2
+{
+	color: #000000;
+}
+
+.description
+{
+	text-align: justify;	
+}
+
+.date
+{
+	text-align: right;
+	font-style: italic;
+}
+
+h2
+{
+	font-size: 30px;
+}
+
+header
+{
+	line-height: 62px;
+	background-color: #000000;
+}
+
+header a
+{
+	text-decoration: none;
+	float: left;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.logged
+{
+	float: right;
+}
+
+.logged a
+{
+	font-size: 16px;
+	margin-left: 20px;
+}
+
+.login
+{
+	float: right;
+}
+
+.login input
+{
+	margin-left: 20px;
+	width: 250px;
+}
+
+#register
+{
+	display: block;
+	margin: 0 auto;	
+}
+
+#register input
+{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	width: 300px;
+}
+
+/* SLIDE TWO */
+.slideTwo {
+	width: 80px;
+	height: 30px;
+	background: #333;
+	margin: 10px auto 20px auto;
+
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	position: relative;
+
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+}
+
+.slideTwo:after {
+	content: '';
+	position: absolute;
+	top: 14px;
+	left: 14px;
+	height: 2px;
+	width: 52px;
+
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	background: #111;
+
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+}
+
+.slideTwo label {
+	display: block;
+	width: 22px;
+	height: 22px;
+
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+
+	-webkit-transition: all .4s ease;
+	-moz-transition: all .4s ease;
+	-o-transition: all .4s ease;
+	-ms-transition: all .4s ease;
+	transition: all .4s ease;
+	cursor: pointer;
+	position: absolute;
+	top: 4px;
+	z-index: 1;
+	left: 4px;
+
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+	background: #fcfff4;
+
+	background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: -ms-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
+}
+
+.slideTwo label:after {
+	content: '';
+	position: absolute;
+	width: 10px;
+	height: 10px;
+
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	background: #333;
+	left: 6px;
+	top: 6px;
+
+	-webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,1), 0px 1px 0px rgba(255,255,255,0.9);
+	-moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,1), 0px 1px 0px rgba(255,255,255,0.9);
+	box-shadow: inset 0px 1px 1px rgba(0,0,0,1), 0px 1px 0px rgba(255,255,255,0.9);
+}
+
+.slideTwo input[type=checkbox]:checked + label {
+	left: 54px;
+}
+
+.slideTwo input[type=checkbox]:checked + label:after {
+	background: #00bf00;
+}
+
+#register input#slideTwo
+{
+	display: none;
+}
+
+#newsletter
+{
+	text-align: center;
+}
+
+input
+{
+	border: 1px solid #BBBBBB;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.submit
+{
+	cursor: pointer;
+	background: #5887f5;
+	color: #ffffff;
+	width: 200px !important;
+	font-weight: bold;
+	border: 0;
+}
+
+.error
+{
+	line-height: 62px;
+	background: #E45454;
+}
+
+.success
+{
+	line-height: 62px;
+	background: #389054;
+}
+
+.error p, .success p
+{
+	color: #ffffff;
+	text-align: center;
+	font-weight: bold;
+}
+
+.clear
+{
+	clear: both;	
+}
+
+footer
+{
+	line-height: 62px;
+	background-color: #1f2024;
+}
+
+footer p
+{
+	text-align: center;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#sendnews, #sendreviews
+{
+	display: block;
+	margin: 20px auto 0 auto;
+	width: 75%;
+}
+
+label
+{
+	display: block;
+	margin-bottom: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+#sendnews textarea, #sendreviews textarea
+{
+	border: 1px solid #BBBBBB;
+	padding: 10px;
+	margin: 0 auto 20px auto;
+	width: 100%;
+	min-height: 250px;
+	max-height: 400px;	
+}
+
+table
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+thead
+{
+	background: #1f2024;
+}
+
+td
+{
+	padding: 10px 0;
+	text-align: center;
+}
+
+.trsecond
+{
+	background: #DADADA;
+}
+
+.trprime
+{
+	background: #808080;
+}
+
+.trprime td
+{
+	color: #ffffff;
+}
+
+thead td
+{
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.newstitle
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#modifynews
+{
+	text-align: center;
+	padding-bottom: 20px;
+	display: block;
+}
+
+select
+{
+	background: #5887f5;
+	padding: 10px;
+	font-weight: bold;
+	font-style: italic;
+	width: 400px;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+
+option
+{
+	color: #ffffff;
+}
+
+.delete-h2
+{
+	margin: 20px auto;
+}
+
+.delete-form
+{
+	text-align: center;
+}
+
+#product
+{
+	border-radius: 50%;
+	width: 350px;
+	display: block;
+	margin: 0 auto;
+	box-shadow: 0px 0px 20px;
+}
+
+#product-name
+{
+	text-align: center;
+	margin: 20px 0;
+}
+
+#price
+{
+	font-weight: bold;
+	font-size: 25px;
+	color: #df3333;
+	text-align: right;
+	padding: 20px 10px;
+}
+
+#reviews
+{
+	margin: 20px 0;
+}
+
+.h2-reviews
+{
+	margin: 20px 0;
+}
+}
